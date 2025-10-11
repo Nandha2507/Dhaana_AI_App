@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  telegram-bot:
+    build: .
+    environment:
+      - TELEGRAM_BOT_TOKEN=${TELEGRAM_BOT_TOKEN}
+    volumes:
+      - ./screenshots:/app/screenshots
+      - ./contributions.db:/app/contributions.db
+    restart: unless-stopped
