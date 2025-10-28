@@ -1,6 +1,0 @@
-python-telegram-bot==20.6
-pandas
-openpyxl
-python-dotenv
-python-telegram-bot[webhooks]==20.6
-
