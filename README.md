@@ -97,7 +97,4 @@ ADMINS = [1255111776, 7854166119]  # Replace with actual admin IDs
 5. Push (`git push origin feature-name`)
 6. Open a Pull Request
 
-## License
-
-MIT License. See [LICENSE](LICENSE) for details.
 
